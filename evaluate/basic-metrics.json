@@ -1,0 +1,15 @@
+{
+  "token_acc":1.0,
+  "cats_score":0.6977471025,
+  "speed":48068.4676431612,
+  "cats_f_per_type":{
+    "positive":{
+      "p":1.0,
+      "r":0.5358,
+      "f":0.6977471025
+    }
+  },
+  "cats_auc_per_type":{
+    "positive":0.92193256
+  }
+}
