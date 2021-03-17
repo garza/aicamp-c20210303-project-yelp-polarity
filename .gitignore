@@ -2,3 +2,5 @@ yelp_review_polarity_csv*
 
 ._*
 .ipynb_checkpoints
+yelp_train_df.csv
+yelp_test_df.csv
