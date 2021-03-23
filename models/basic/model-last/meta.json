@@ -37,22 +37,22 @@
   "performance":{
     "cats_score_desc":"macro F",
     "cats_micro_p":1.0,
-    "cats_micro_r":0.4938,
-    "cats_micro_f":0.6611326818,
+    "cats_micro_r":0.4926,
+    "cats_micro_f":0.6600562776,
     "cats_macro_p":1.0,
-    "cats_macro_r":0.4938,
-    "cats_macro_f":0.6611326818,
-    "cats_macro_auc":0.93932448,
+    "cats_macro_r":0.4926,
+    "cats_macro_f":0.6600562776,
+    "cats_macro_auc":0.94815568,
     "cats_f_per_type":{
       "positive":{
         "p":1.0,
-        "r":0.4938,
-        "f":0.6611326818
+        "r":0.4926,
+        "f":0.6600562776
       }
     },
     "cats_macro_auc_per_type":0.0,
-    "cats_score":0.6611326818,
+    "cats_score":0.6600562776,
     "tok2vec_loss":0.0,
-    "textcat_loss":0.0064756394
+    "textcat_loss":0.0531233253
   }
 }

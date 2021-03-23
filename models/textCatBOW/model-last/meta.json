@@ -17,7 +17,8 @@
   },
   "labels":{
     "textcat":[
-      "positive"
+      "positive",
+      "negative"
     ]
   },
   "pipeline":[
@@ -30,23 +31,28 @@
 
   ],
   "performance":{
-    "cats_score_desc":"macro F",
-    "cats_micro_p":1.0,
-    "cats_micro_r":0.4866,
-    "cats_micro_f":0.6546481905,
-    "cats_macro_p":1.0,
-    "cats_macro_r":0.4866,
-    "cats_macro_f":0.6546481905,
-    "cats_macro_auc":0.94626992,
+    "cats_score_desc":"macro AUC",
+    "cats_micro_p":0.8766,
+    "cats_micro_r":0.8766,
+    "cats_micro_f":0.8766,
+    "cats_macro_p":0.8767447303,
+    "cats_macro_r":0.8766,
+    "cats_macro_f":0.8765881475,
+    "cats_macro_auc":0.94427072,
     "cats_f_per_type":{
       "positive":{
-        "p":1.0,
-        "r":0.4866,
-        "f":0.6546481905
+        "p":0.884128927,
+        "r":0.8668,
+        "f":0.8753787114
+      },
+      "negative":{
+        "p":0.8693605335,
+        "r":0.8864,
+        "f":0.8777975837
       }
     },
     "cats_macro_auc_per_type":0.0,
-    "cats_score":0.6546481905,
-    "textcat_loss":0.0049728948
+    "cats_score":0.94427072,
+    "textcat_loss":0.0000751176
   }
 }

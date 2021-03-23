@@ -17,7 +17,8 @@
   },
   "labels":{
     "textcat":[
-      "positive"
+      "positive",
+      "negative"
     ]
   },
   "pipeline":[
@@ -31,22 +32,27 @@
   ],
   "performance":{
     "cats_score_desc":"macro AUC",
-    "cats_micro_p":0.8615185505,
-    "cats_micro_r":0.7988,
-    "cats_micro_f":0.8289746783,
-    "cats_macro_p":0.8615185505,
-    "cats_macro_r":0.7988,
-    "cats_macro_f":0.8289746783,
-    "cats_macro_auc":0.90587824,
+    "cats_micro_p":0.7164,
+    "cats_micro_r":0.7164,
+    "cats_micro_f":0.7164,
+    "cats_macro_p":0.7768239887,
+    "cats_macro_r":0.7164,
+    "cats_macro_f":0.7000310038,
+    "cats_macro_auc":0.8819122,
     "cats_f_per_type":{
       "positive":{
-        "p":0.8615185505,
-        "r":0.7988,
-        "f":0.8289746783
+        "p":0.9061561562,
+        "r":0.4828,
+        "f":0.6299582463
+      },
+      "negative":{
+        "p":0.6474918212,
+        "r":0.95,
+        "f":0.7701037613
       }
     },
     "cats_macro_auc_per_type":0.0,
-    "cats_score":0.90587824,
-    "textcat_loss":0.0029118643
+    "cats_score":0.8819122,
+    "textcat_loss":1.9988827966
   }
 }
