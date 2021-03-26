@@ -3,3 +3,4 @@ yelp_review_polarity_csv*
 ._*
 .ipynb_checkpoints
 yelp*.csv
+wandb
